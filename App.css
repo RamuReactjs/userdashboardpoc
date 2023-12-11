@@ -1,0 +1,135 @@
+/* header */
+.mainHeader{
+  background-color: #ffffff;
+}
+.mainHeader a{
+  color: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border-left: solid 1px #e3e3e3;
+}
+.mainHeader a:hover{
+  color: #0BC1CF;
+  padding:10px 20px 10px 20px;
+  text-decoration: none;
+  border-left: solid 1px #e3e3e3;
+}
+.active{
+  color: #0BC1CF !important;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-left: solid 1px #e3e3e3;
+  font-weight: 600;
+  
+}
+.mainHeader .huron-logo{
+  height: 48px;
+}
+.navbar_wraper2 a {
+  /* font-size: 20px; */
+}
+.navbar_wraper2 span {
+  color: #192365 !important;
+  font-size: 18px !important;
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 18px;
+}
+.navbar_wraper2 em {
+  color: #ffffff !important;
+  font-size: 12px !important;
+  background: #F07F09 0% 0% no-repeat padding-box;
+  width: 20px !important;
+  height: 20px !important;
+  display: block;
+  text-align: center;
+  border-radius: 50px;
+  position: absolute;
+  top: 10px;
+  right: 160px;
+  font-style: normal;
+}
+.userManagement {
+  padding: 20px 20px 10px 40px !important;
+}
+.userManagement h1{
+  color: #192365 !important;
+  font-size: 32px !important;
+  margin: 0;
+  padding: 0 0 20px 0 ;
+}
+.tabActive {
+    background-color: #0BC1CF;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px 10px 0 0;
+    color: #ffffff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.userManagementCreation{
+  padding: 26px;
+  border-radius: 0 5px 5px 5px;
+  background-color: #ffffff;
+  height: 80vh;
+}
+.content{
+  display: none;
+}
+.tabs span{
+  font-size: 16px;
+  padding: 10px 30px;
+}
+.tabs span:hover{
+  font-size: 16px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.userForm{
+  width: 1000px !important;
+  margin: 0 auto !important;
+}
+.userForm label, input{
+font-size: 14px !important;
+color: #192365 !important;
+}
+.userForm input{
+  font-size: 14px !important;
+  color: #192365 !important;
+  border: 1px solid #192365 !important;
+border-radius: 4px !important;
+width: 400px;
+  }
+  .userForm select{
+    font-size: 14px !important;
+    border: 1px solid #192365 !important;
+    width: 400px;
+}
+.btns button{
+  text-align: center;
+}
+.btn-primary.Reset{
+  background: #192365 0% 0% no-repeat padding-box;
+border-radius: 16px;
+opacity: 0.3;
+border: none;
+width: 260px;
+height: 60px;
+margin-top: 20px;
+position: relative;
+right: 50px
+}
+
+.btn-primary.Save{
+  background: #0BC1CF 0% 0% no-repeat padding-box;
+border-radius: 16px;
+border: none;
+opacity: 1;
+width: 260px;
+height: 60px;
+margin-top: 20px;
+position: relative;
+right: 40px;
+}
